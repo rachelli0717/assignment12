@@ -26,5 +26,7 @@ if __name__ == "__main__":
 
     cleaned = pd.read_csv(output)
 
+    print("Output file shape:", cleaned.shape)
+
 
 
